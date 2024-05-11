@@ -14,17 +14,4 @@ module.exports = withBundleAnalyzer({
   // So, the source code is "basePath-ready".
   // You can remove `basePath` if you don't need it.
   reactStrictMode: true,
-  experimental: {
-      urlImports: ["https://img.icons8.com/ios/100/"]
-  },
-  images: {
-      remotePatterns: [
-        {
-          protocol: 'https',
-          hostname: 'img.icons8.com',
-          port: '',
-          pathname: '/ios/100/*',
-        },
-      ],
-    },
 });
