@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Cybersecurity Hub</title>
+        <title>Eikarna</title>
         <meta name="description" content="Protecting your digital world, one byte at a time" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Eikarna's Cybersecurity Hub!</h1>
+        <h1 className={styles.title}>Welcome to Eikarna's Hub!</h1>
 
         <p className={styles.description}>
           I'm passionate about cybersecurity and dedicated to helping individuals and businesses stay secure online.
