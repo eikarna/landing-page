@@ -13,6 +13,15 @@
   animation: typing 4s steps(40, end); /* Adjust duration and steps as needed */
 }
 
+.dim-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+
 .container {
   min-height: 100vh;
   padding: 0;
