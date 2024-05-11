@@ -62,7 +62,6 @@ jobs:
           static_site_generator: next
       - name: Setup Dependecies & AutoFix
         run: |
-          sudo apt install tree
           npm install
           npx eslint . --fix
       - name: Restore cache
@@ -78,13 +77,11 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
-        run: |
-          ${{ steps.detect-package-manager.outputs.runner }} next build
-          tree . -I "node_modules|.next|.husky"
+        run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: .next
 
   # Deployment job
   deploy:
