@@ -2,7 +2,9 @@ import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
   <div className="footer-copyright">
-    © Copyright {new Date().getFullYear()} {AppConfig.site_name}. Made with ❤️ by {''}<a href="https://github.com/eikarna">Adnan</a>.
+    © Copyright {new Date().getFullYear()} {AppConfig.site_name}. Made with ❤️
+    by {''}
+    <a href="https://github.com/eikarna">Adnan</a>.
     {/*
      * PLEASE READ THIS SECTION
      * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.

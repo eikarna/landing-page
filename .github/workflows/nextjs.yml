@@ -60,9 +60,10 @@ jobs:
           #
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: next
-      - name: Setup Dependecies
+      - name: Setup Dependecies & AutoFix
         run: |
           npm install
+          npx eslint . --fix
       - name: Restore cache
         uses: actions/cache@v4
         with:
