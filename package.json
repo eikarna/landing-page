@@ -1,5 +1,5 @@
 {
-  "name": "cybersecurity-hub",
+  "name": "landing-pages",
   "version": "1.0.0",
   "description": "A cybersecurity landing page built with Next.js",
   "scripts": {
@@ -8,11 +8,11 @@
     "start": "next start"
   },
   "keywords": ["nextjs", "cybersecurity", "landing-page"],
-  "author": "[Your Name]",
+  "author": "Eikarna",
   "license": "MIT",
   "dependencies": {
-    "next": "^12.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
