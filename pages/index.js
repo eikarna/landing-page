@@ -3,6 +3,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import BackgroundImage from '../public/background.jpg'; // Adjust the path as needed
+import styles from '../styles/Home.module.css'; // Adjust the path as needed
 
 export default function Home() {
   return (
