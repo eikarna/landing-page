@@ -34,6 +34,11 @@
   background-repeat: no-repeat;
 }
 
+.content {
+  position: relative;
+  z-index: 1; /* Adjust z-index to place content above the background image */
+}
+
 .main {
   width: 90%; /* Adjust width for responsiveness */
   max-width: 800px; /* Limit maximum width for larger screens */
