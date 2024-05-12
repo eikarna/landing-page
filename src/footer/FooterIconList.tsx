@@ -11,7 +11,6 @@ const FooterIconList = (props: IFooterIconListProps) => (
     <style jsx>
       {`
         .footer-icon-list :global(a:not(:last-child)) {
-          @apply mr-3;
         }
 
         .footer-icon-list :global(a) {
@@ -24,6 +23,7 @@ const FooterIconList = (props: IFooterIconListProps) => (
 
         .footer-icon-list :global(svg) {
           @apply fill-current w-5 h-5;
+          margin: 0rem 1rem 0rem;
         }
       `}
     </style>

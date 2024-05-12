@@ -18,8 +18,8 @@ const Sponsors = () => (
               <Image
                 src="/assets/images/nevo.png"
                 alt="Nevolution Team"
-                width={260}
-                height={224}
+                width={480}
+                height={480}
               />
             </a>
           </td>
@@ -31,18 +31,18 @@ const Sponsors = () => (
               <Image
                 src="/assets/images/nixiga.png"
                 alt="Nixiga Team"
-                width={260}
-                height={224}
+                width={480}
+                height={480}
               />
             </a>
           </td>
           <td className="border-2 border-gray-300 p-3">
-            <a href="https://">
+            <a href="https://github.com/ForumLinuxIndonesia">
               <Image
                 src="/assets/images/fli.jpeg"
                 alt="Forum Linux Indonesia"
-                width={260}
-                height={224}
+                width={480}
+                height={480}
               />
             </a>
           </td>

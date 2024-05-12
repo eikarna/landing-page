@@ -10,7 +10,7 @@ import { Logo } from './Logo';
 const Hero = () => (
   <Background color="bg-gray-100">
     <Section yPadding="py-6">
-      <NavbarTwoColumns logo={<Logo xl />}>
+      <NavbarTwoColumns logo={<Logo />}>
         <li>
           <Link href="https://github.com/eikarna">
             GitHub
