@@ -38,3 +38,4 @@ local
 .husky
 .vscode
 .next
+next.config.js
