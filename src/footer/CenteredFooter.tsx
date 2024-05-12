@@ -10,21 +10,18 @@ type ICenteredFooterProps = {
 
 const CenteredFooter = (props: ICenteredFooterProps) => (
   <div className="text-center">
-  Adnan Syamsafa (Eikarna)
+    Adnan Syamsafa (Eikarna)
     <nav>
       <ul className="navbar mt-5 flex flex-row justify-center text-xl font-medium text-gray-800">
         {props.children}
       </ul>
     </nav>
-
     <div className="mt-8 flex justify-center">
       <FooterIconList>{props.iconList}</FooterIconList>
     </div>
-
     <div className="mt-8 text-sm">
       <FooterCopyright />
     </div>
-
     <style jsx>
       {`
         .navbar :global(li) {

@@ -1,5 +1,6 @@
+import Img from 'next/image';
+
 import { AppConfig } from '../utils/AppConfig';
-import Img from "next/image";
 
 type ILogoProps = {
   xl?: boolean;
@@ -13,7 +14,12 @@ const Logo = (props: ILogoProps) => {
 
   return (
     <span className={`inline-flex items-center text-gray-900 ${fontStyle}`}>
-      <Img src="/assets/images/male-circle.png" width={size} height={size} alt="Portfolio"/>
+      <Img
+        src="/assets/images/male-circle.png"
+        width={size}
+        height={size}
+        alt="Portfolio"
+      />
 
       {AppConfig.site_name}
     </span>

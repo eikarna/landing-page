@@ -11,10 +11,7 @@ const Sponsors = () => (
       <tbody>
         <tr className="h-56">
           <td className="border-2 border-gray-300 p-3">
-            <a
-              href="https://nevolution.team"
-              target="_blank"
-            >
+            <a href="https://nevolution.team" target="_blank" rel="noreferrer">
               <Image
                 src="/assets/images/nevo.png"
                 alt="Nevolution Team"
@@ -24,10 +21,7 @@ const Sponsors = () => (
             </a>
           </td>
           <td className="border-2 border-gray-300 p-3">
-            <a
-              href="https://nixiga.github.io"
-              target="_blank"
-            >
+            <a href="https://nixiga.github.io" target="_blank" rel="noreferrer">
               <Image
                 src="/assets/images/nixiga.png"
                 alt="Nixiga Team"
