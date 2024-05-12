@@ -9,7 +9,6 @@ const Footer = () => (
   <Background color="bg-gray-100">
     <Section>
       <CenteredFooter
-        logo={<Logo />}
         iconList={
           <>
             <Link href="https://github.com/eikarna">
